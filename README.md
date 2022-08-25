@@ -7,6 +7,5 @@ Daftar isi:
 - [User Interface](./user-interface/)
 - [Basic Scripting](./basic-scripting/)
 - [MonoBehavior](./monobehavior/)
-- [Mengatur Editor Script](./mengatur-editor-script/)
 - [Variable](./variable/)
 - [Function](./function/)
