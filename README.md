@@ -1,11 +1,16 @@
 # Pemrograman Game
  Mata Kuliah Pemrograman Game Semester 3 Prodi Teknologi Permainan STMM MMTC Yogyakarta 2022
 
-Daftar isi:
+## Materi:
 - [Instalasi dan Aktivasi Unity](./instalasi-dan-aktivasi-unity/)
-- [Roll a Ball](./roll-a-ball/)
 - [User Interface](./user-interface/)
-- [Basic Scripting](./basic-scripting/)
 - [MonoBehavior](./monobehavior/)
 - [Variable](./variable/)
 - [Function](./function/)
+- [Classes and Object](./classes-and-object/)
+- [Inheritance](./inheritance/)
+- [Array](./array/)
+
+## Project:
+- [Roll a Ball](./roll-a-ball/)
+- [Basic Scripting](./basic-scripting/)

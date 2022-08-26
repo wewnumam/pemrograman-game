@@ -1,5 +1,13 @@
 # Basic Scripting
 
+Versi Unity: 2021.3.6f1 LTS
+
+Daftar isi:
+- [Basic Scripting](#basic-scripting)
+  - [Praktik: Membuat Project Baru](#praktik-membuat-project-baru)
+  - [Praktik: Membuat Script](#praktik-membuat-script)
+  - [Praktik: Menjalankan Script](#praktik-menjalankan-script)
+
 ## Praktik: Membuat Project Baru
 Kita bersiap membuat sebuah proyek baru yang akan digunakan di pembelajaran ini. Buka Unity, Kemudian klik New, lalu atur seperti di bawah ini:
 1. Project name: BasicScripting
