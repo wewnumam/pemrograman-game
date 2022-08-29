@@ -5,6 +5,7 @@ Daftar isi:
   - [Classes and Object](#classes-and-object-1)
   - [Praktik: Membuat Class Baru Karakter](#praktik-membuat-class-baru-karakter)
   - [Praktik: Mengimplementasikan Class Karakter Sebagai Object](#praktik-mengimplementasikan-class-karakter-sebagai-object)
+  - [Kredit](#kredit)
 
 ## Classes and Object
 Class adalah sebuah bangunan dasar dari bahasa berorientasi object. Ia berisi metode dan variabel yang berfungsi untuk menciptakan suatu instance dari object. Sedangkan object itu sendiri adalah perumpamaan dari class yang mempresentasikan sebuah object.
@@ -217,3 +218,6 @@ public class Latihan4 : MonoBehaviour
 ```
 
 Drag and Drop script *Latihan4.cs* ke GameObject Main Camera di `Hierarchy` Hilangkan centang pada `Latihan 3`. Jendela Console menampilkan log informasi dari Attribute function dan dari function `Jump()`.
+
+## Kredit
+[Dicoding Indonesia](https://www.dicoding.com/)

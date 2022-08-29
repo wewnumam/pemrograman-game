@@ -55,7 +55,7 @@ void Start () {
     intArray3[1] = new int[3];
     intArray3[0][0] = 10;// Memasukkan nilai ke Array
     intArray3[0][1] = 20;
-    intArray3[1][0] = 30;11.
+    intArray3[1][0] = 30;
     intArray3[1][1] = 40;
     intArray3[1][2] = 50;
 }

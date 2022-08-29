@@ -17,6 +17,7 @@ Daftar isi:
   - [Mendeteksi Tumbukan](#mendeteksi-tumbukan)
   - [Menampilkan Skor dan Teks](#menampilkan-skor-dan-teks)
   - [*Build* Game](#build-game)
+  - [Kredit](#kredit)
 
 ## Setup Game
 
@@ -65,3 +66,5 @@ Sebelumnya, buat folder template baru di dalam direktori *Assets* dan pindahkan 
 
 ## *Build* Game
 
+## Kredit
+[Unity](http://learn.unity.com/)

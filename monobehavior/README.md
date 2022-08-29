@@ -9,6 +9,7 @@ Daftar isi:
   - [Update](#update)
   - [FixedUpdate](#fixedupdate)
   - [LateUpdate](#lateupdate)
+  - [Kredit](#kredit)
 
 Di bawah ini adalah diagram untuk pengurutan dan pengulangan fungsi selama script dijalankan.
 ![Script lifecycle flowchart](https://docs.unity3d.com/uploads/Main/monobehaviour_flowchart.svg)
@@ -230,3 +231,6 @@ public class Latihan1 : MonoBehaviour {
     }
 }
 ```
+
+## Kredit
+[Dicoding Indonesia](https://www.dicoding.com/)

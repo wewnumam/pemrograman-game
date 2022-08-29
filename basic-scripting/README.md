@@ -7,6 +7,7 @@ Daftar isi:
   - [Praktik: Membuat Project Baru](#praktik-membuat-project-baru)
   - [Praktik: Membuat Script](#praktik-membuat-script)
   - [Praktik: Menjalankan Script](#praktik-menjalankan-script)
+  - [Kredit](#kredit)
 
 ## Praktik: Membuat Project Baru
 Kita bersiap membuat sebuah proyek baru yang akan digunakan di pembelajaran ini. Buka Unity, Kemudian klik New, lalu atur seperti di bawah ini:
@@ -104,3 +105,6 @@ jendela `Hierarchy`.
 3. Jika di klik Info tersebut maka akan muncul `Jendela Console`. Sebagai berikut: Jika Anda klik salah satu list yang terdapat di `Console`, akan muncul info detail dari informasi nama berkas (file) script sampai baris kode tersebut. Anda dapat menghilangkan info tersebut dengan klik tombol `Clear`.
 4. Untuk mematikan Play Mode, dengan klik lagi pada icon Play.
 5. Anda dapat simpan dengan klik menu `File` > `Save Scenes` atau tekan `Ctrl+S`. Kemudian beri nama *Main.unity*.
+
+## Kredit
+[Dicoding Indonesia](https://www.dicoding.com/)
