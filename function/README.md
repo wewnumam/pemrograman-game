@@ -28,7 +28,7 @@ Untuk memudahkan pembelajaran, buat script baru dengan nama *Latihan3*.cs. Langk
 ## Praktik: Function
 Kemudian kita akan mengimplementasikan function pada *Latihan3.cs*.
 Langkah-langkahnya sebagai berikut:
-1. Buka Script *Latihan3*.cs. Tambahkan function di dalam class *Latihan3* sebagai berikut:
+1. Buka Script *Latihan3.cs*. Tambahkan function di dalam class *Latihan3* sebagai berikut:
    ```csharp 
     int Jumlah(int a, int b)
     {
@@ -40,35 +40,35 @@ Langkah-langkahnya sebagai berikut:
     int c = Jumlah(60, 40);
     Debug.Log("Hasil Jumlah a dan b adalah " + c);
     ```
-3. Kemudian simpan perubahan code dengan klik Ctrl+S
-Sehingga pada Script *Latihan3*.cs sebagai berikut:
-```csharp 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+3. Kemudian simpan perubahan code dengan klik `Ctrl+S`
+    Sehingga pada Script *Latihan3.cs* sebagai berikut:
+    ```csharp 
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-public class *Latihan3* : MonoBehaviour
-{
-
-    // Use this for initialization
-    void Start()
-    {
-        int c = Jumlah(60, 40);
-        Debug.Log("Hasil Jumlah a dan b adalah " + c);
-    }
-
-    // Update is called once per frame
-    void Update()
+    public class Latihan3 : MonoBehaviour
     {
 
-    }
+        // Use this for initialization
+        void Start()
+        {
+            int c = Jumlah(60, 40);
+            Debug.Log("Hasil Jumlah a dan b adalah " + c);
+        }
 
-    int Jumlah(int a, int b)
-    {
-        return a + b;
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        int Jumlah(int a, int b)
+        {
+            return a + b;
+        }
     }
-}
-```
+    ```
 
 ## Praktik: Comment di Function dan Parameter
 Berfungsi untuk memberi informasi tentang function yang telah dibuat

@@ -67,10 +67,10 @@ https://docs.unity3d.com/ScriptReference/Array.html
 ## Praktik: Membuat Script Baru (*Latihan6.cs*)
 Untuk memudahkan pembelajaran, buat script baru dengan nama *Latihan6.cs*
 1. Buat C# Script baru dengan klik kanan pada jendela `Project` > `Create` > `C# Script `> Langsung beri nama *Latihan6*
-2. Drag script *Latihan6.cs* ke GameObject ``Main Camera`` di Jendela HierarchySupaya script *Latihan6.cs* dijalankan oleh `Main Camera` ketika menjalankan `Play Mode`.
+2. Drag script *Latihan6.cs* ke GameObject ``Main Camera`` di Jendela `Hierarchy` supaya script *Latihan6.cs* dijalankan oleh `Main Camera` ketika menjalankan `Play Mode`.
 3. Klik GameObject `Main Camera` di `Hierarchy`, Kemudian Jendela `Inspector`. Lalu hilangkan centang pada script *Prajurit.cs* lihat Dengan ini, `Main Camera` akan menjalankan script *Latihan6*, bukan script *Prajurit*
 4. Buka script *Latihan6* kemudian ubahlah script seperti dibawah ini:
-- Tambahkan kode ini di dalam class *Latihan6*
+- Tambahkan kode ini di dalam class `Latihan6`
     ```csharp
     int[] intArray; // Deklarasi Array
     ```
@@ -169,8 +169,8 @@ Kita selain dapat menginisialisasi Array di dalam script, Kita juga dapat mengin
         }
     }
     ```
-2. Kembali ke Unity dan Klik GameObject `Main Camera`. Kemudian pada `Inspector`. klik icon panah pada field `IntArray`
-3. Masukkkan Size 5 dan masukkan ke-5 angka tersebut. Simpan Project Anda dengan tekan `Ctrl+S` atau klik Menu `File` > pilih `Save Scenes`. Kemudian simpan dengan nama *Main.unity*
+2. Kembali ke Unity dan Klik GameObject `Main Camera`. Kemudian pada `Inspector` > `Latihan6` > `IntArray` masukkkan Size *5*, kemudian klik icon `+`, masukkan angka di masing-masing `element`. 
+3. Jalankan `Play Mode`. Simpan Project Anda dengan tekan `Ctrl+S`.
 
 ## Kredit
 [Dicoding Indonesia](https://www.dicoding.com/)

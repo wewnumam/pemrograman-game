@@ -9,11 +9,11 @@ Daftar isi:
 
 ## Inheritance
 
-Inheritance atau warisan adalah konsep Pemrograman Berorientasi Objek (OOP) yang digunakan untuk mengakses dan menggunakan kembali sifat atau metode satu kelas dari kelas lainnya. 
+Inheritance atau warisan adalah konsep Pemrograman Berorientasi Objek (*OOP*) yang digunakan untuk mengakses dan menggunakan kembali sifat atau metode satu kelas dari kelas lainnya. 
 
-Di dalam inheritance, kelas dasarnya dikenal sebagai Base Class (kelas dasar). Sementara kelas yang mewarisi dari base dikenal sebagai Derived Class (kelas turunan). 
+Di dalam inheritance, kelas dasarnya dikenal sebagai *Base Class* (kelas dasar). Sementara kelas yang mewarisi dari base dikenal sebagai *Derived Class* (kelas turunan). 
 
-Ketika membuat kelas baru di Unity, maka secara otomatis kelas tersebut merupakan turunan dari *MonoBehaviour* sebagai default-nya. Di dalam kelas turunan ini kita bisa mengakses banyak fungsi seperti `Update()`, `Start()`, dan fungsi lain yang dimiliki oleh Class *MonoBehaviour*.
+Ketika membuat kelas baru di Unity, maka secara otomatis kelas tersebut merupakan turunan dari *MonoBehaviour* sebagai default-nya. Di dalam kelas turunan ini kita bisa mengakses banyak fungsi seperti `Update()`, `Start()`, dan fungsi lain yang dimiliki oleh Class `MonoBehaviour`.
 
 ```csharp
 using System.Collections;
@@ -42,15 +42,18 @@ Kemudian ada 3 access modifier untuk menentukan apa saja function yang dapat dit
 3. **Private**, murupakan feature pada method, property atau variable yang tidak dapat diturunkan kepada kelas yang diwariskan tetapi tidak dapat diakses oleh kelas yang bukan turunannya.
 
 ## Praktik: Membuat Kelas Base
-Kemudian kita akan membuat sebuah kelas dengan nama Manusia
+Kemudian kita akan membuat sebuah kelas dengan nama `Manusia`
 1. Buatlah Folder dengan nama *Latihan5* agar script di submodule ini tertata rapi.
 2. Buka folder *Latihan5*, kemudian buat script baru dengan nama *Manusia* (Klik Kanan > `Create` > `C# Script` > Beri nama *Manusia*)
 3. Buka script *Manusia.cs* dengan klik 2 kali dan tambahkan kode di dalam Kelas *Manusia* di bawah ini:
     ```csharp
-    public void Makan(){
+    public void Makan()
+    {
         Debug.Log ("Perlu Makan");
     }
-    public void Tidur(){
+
+    public void Tidur()
+    {
         Debug.Log ("Perlu Tidur");
     }
     ```
@@ -77,16 +80,17 @@ Kemudian kita akan membuat sebuah kelas dengan nama Manusia
     ```
 
 ## Praktik: Membuat Kelas Turunan
-Selanjutnya membuat Kelas Turunan untuk mengimplementasikan Kelas *Manusia* sebagai kelas Base.
-1. Buka Folder Latihan5, kemudian buat script baru dengan nama *Prajurit* (Klik Kanan > `Create` > `C# Script` > Beri nama *Prajurit.cs*)
+Selanjutnya membuat Kelas Turunan untuk mengimplementasikan Kelas `Manusia` sebagai kelas Base.
+1. Buka Folder *Latihan5*, kemudian buat script baru dengan nama *Prajurit* (Klik Kanan > `Create` > `C# Script` > Beri nama *Prajurit.cs*)
 2. Sesuaikan dengan code di bawah ini:
-- Ganti kelas turunan dari *MonoBehaviour* menjadi *Manusia*
+- Ganti kelas turunan dari `MonoBehaviour` menjadi `Manusia`
     ```csharp
     public class Prajurit : Manusia
     ```
-- Tambahkan method ini di dalam kelas *Prajurit*
+- Tambahkan method ini di dalam kelas `Prajurit`
     ```csharp
-    void Menyerang(){
+    void Menyerang()
+    {
         Debug.Log("Menyerang");
     }
     ```
@@ -127,7 +131,7 @@ Selanjutnya membuat Kelas Turunan untuk mengimplementasikan Kelas *Manusia* seba
     }
     ```
 3. Drag and Drop Script *Prajurit.cs* ke GameObject `Main Camera` di `Hierarchy`
-4. Hilangkan centang pada script *Latihan*. Ketika dijalankan Prajurit selain dapat mengakses `Menyerang()`, juga memiliki sifat *Manusia* seperti `Makan()` dan `Tidur()`;
+4. Hilangkan centang pada script *Latihan 4*. Ketika dijalankan *Prajurit* selain dapat mengakses `Menyerang()`, juga memiliki sifat *Manusia* seperti `Makan()` dan `Tidur()`;
 
 ## Kredit
 [Dicoding Indonesia](https://www.dicoding.com/)
