@@ -10,6 +10,7 @@
 - [Classes and Object](./classes-and-object/)
 - [Inheritance](./inheritance/)
 - [Array](./array/)
+- [Materi Casual Game](./materi-casual-game/)
 
 ## Project:
 - [Roll a Ball](./roll-a-ball/)
