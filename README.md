@@ -15,11 +15,13 @@
 ## Project:
 - [Roll a Ball](./roll-a-ball/)
 - [Basic Scripting](./basic-scripting/)
-- [Casual Game](./casual-game)
-- [Pukul Bola (Pong)](./pukul-bola)
+- [Casual Game](./casual-game/)
+- [Pukul Bola (Pong)](./pukul-bola/)
+- [Pilah Sampah](./pilah-sampah/)
 
 ## Build Project:
 Screenshot | Link
 --- | ---
 ![Roll a Ball](https://img.itch.zone/aW1nLzk5MjAwMzguZ2lm/315x250%23cm/knPQ9p.gif) | [Roll a Ball](https://wewnumam.itch.io/rollerball-unity-learn)
 ![Pukul Bola](https://img.itch.zone/aW1hZ2UvMTY5MzQ5My85OTc2MjQ5LnBuZw==/347x500/JYEP28.png) | [Pukul Bola](https://wewnumam.itch.io/pukul-bola-pong)
+![Pilah Sampah](https://img.itch.zone/aW1hZ2UvMTcwMjUxMi8xMDAzMDE1Mi5wbmc=/347x500/E0gZWK.png) | [Pilah Sampah](https://wewnumam.itch.io/pilah-sampah)
