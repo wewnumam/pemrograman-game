@@ -24,4 +24,4 @@ Screenshot | Link
 --- | ---
 ![Roll a Ball](https://img.itch.zone/aW1hZ2UvMTY4NDMzMS8xMDAzMTg5OS5wbmc=/347x500/xt1Gjf.png) | [Roll a Ball](https://wewnumam.itch.io/rollerball-unity-learn)
 ![Pukul Bola](https://img.itch.zone/aW1hZ2UvMTY5MzQ5My8xMDAzMTkxNC5wbmc=/347x500/Bd9MYv.png) | [Pukul Bola](https://wewnumam.itch.io/pukul-bola-pong)
-![Pilah Sampah](https://img.itch.zone/aW1hZ2UvMTcwMjUxMi8xMDAzMTkyMi5wbmc=/original/xqz2fN.png) | [Pilah Sampah](https://wewnumam.itch.io/pilah-sampah)
+![Pilah Sampah](https://img.itch.zone/aW1hZ2UvMTcwMjUxMi8xMDAzMTkyMi5wbmc=/347x500/xJVUR6.png) | [Pilah Sampah](https://wewnumam.itch.io/pilah-sampah)
