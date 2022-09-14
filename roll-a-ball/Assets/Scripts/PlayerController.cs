@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     // Create public variables for player speed, and for the Text UI game objects
     public float speed = 0;
     public TextMeshProUGUI countText;
-	public GameObject winTextObject;
+	public GameObject gameOverPanel;
     
     private Rigidbody rb;
     private int count;
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
 		SetCountText();
 
         // Set the text property of the Win Text UI to an empty string, making the 'You Win' (game over message) blank
-        winTextObject.SetActive(false);
+        gameOverPanel.SetActive(false);
     }
 
     void OnMove(InputValue movementValue)
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
 		if (count >= 12) 
 		{
             // Set the text value of your 'winText'
-            winTextObject.SetActive(true);
+            gameOverPanel.SetActive(true);
 		}
 	}
 }
