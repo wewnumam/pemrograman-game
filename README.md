@@ -19,6 +19,7 @@
 - [Pukul Bola (Pong)](./pukul-bola/)
 - [Pilah Sampah](./pilah-sampah/)
 - [Endless Runner](./endless-runner/)
+- [Platformer](./platformer/)
 
 ## Build Project (WebGL):
 Screenshot | Link to Play
