@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerFall : MonoBehaviour
 {
+    public int reloadScene;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class PlayerFall : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(reloadScene);
         }
     }
 }
