@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
         private float jumpForce;
     
+    private bool isLevelGravitySwitcher;
     private Rigidbody rb;
     private bool isGrounded;
 
@@ -19,6 +21,11 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         gameOverPanel.SetActive(false);
+
+        if (SceneManager.GetActiveScene().name == "LevelGravitySwitcher")
+            isLevelGravitySwitcher = true;
+        else
+            isLevelGravitySwitcher = false;
     }
 
     private void OnCollisionStay(Collision other) 
@@ -33,6 +40,8 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
+            if (isLevelGravitySwitcher)
+                Physics.gravity *= -1;
         }
     }
 
