@@ -27,5 +27,5 @@ Screenshot | Link to Play
 ![Roll a Ball](https://img.itch.zone/aW1hZ2UvMTY4NDMzMS8xMDAzMTg5OS5wbmc=/347x500/xt1Gjf.png) | [Roll a Ball](https://wewnumam.itch.io/rollerball-unity-learn)
 ![Pukul Bola](https://img.itch.zone/aW1hZ2UvMTY5MzQ5My8xMDAzMTkxNC5wbmc=/347x500/Bd9MYv.png) | [Pukul Bola](https://wewnumam.itch.io/pukul-bola-pong)
 ![Pilah Sampah](https://img.itch.zone/aW1hZ2UvMTcwMjUxMi8xMDAzMTkyMi5wbmc=/347x500/xJVUR6.png) | [Pilah Sampah](https://wewnumam.itch.io/pilah-sampah)
-![Endless Runner](https://img.itch.zone/aW1hZ2UvMTcwNDM4Ny8xMDA0NDA5Ni5wbmc=/347x500/mhoM94.png) | [Endless Runner](https://wewnumam.itch.io/endless-runner)
+![Endless Runner](https://img.itch.zone/aW1hZ2UvMTcwNDM4Ny8xMDI2NjA4MS5wbmc=/347x500/rqDdmI.png) | [Endless Runner](https://wewnumam.itch.io/endless-runner)
 ![Platformer](https://img.itch.zone/aW1hZ2UvMTcxNTk2MC8xMDEwODExOS5wbmc=/347x500/tpVthf.png) | [Platformer: Part Two](https://wewnumam.itch.io/2d-platformer)
