@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     float inputX;
     float inputY;
-    bool isJump = true;
+    bool isGround;
 
     // Start is called before the first frame update
     void Start()
@@ -26,21 +26,25 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 movement = new Vector2(inputX, 0);
-        rb.AddForce(movement * speed);
+        Vector2 movement = new Vector2(inputX * speed, 0);
+        rb.AddForce(movement);
 
-        if (inputY > 0 && !isJump)
+        if (inputY > 0 && isGround)
+        {
             rb.AddForce(new Vector2(0, 1) * jumpForce);
+            isGround = false;
+        }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (isJump)
-            isJump = false;
-    }
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGround = true;
+        }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        isJump = true;
+        if (other.gameObject.CompareTag("Ball"))
+        {
+            Data.Replay();
+        }
     }
 }

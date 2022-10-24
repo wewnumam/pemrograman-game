@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PuzzleDestroyer : MonoBehaviour
+public class TrashPuzzle : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -21,7 +20,7 @@ public class PuzzleDestroyer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PuzzleTypeOne") || other.gameObject.CompareTag("PuzzleTypeTwo"))
         {
-            Data.Replay();
+            Destroy(other.gameObject);
         }
     }
 }

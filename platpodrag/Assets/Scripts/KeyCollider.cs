@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PuzzleDestroyer : MonoBehaviour
+public class KeyCollider : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,12 +15,12 @@ public class PuzzleDestroyer : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if (other.gameObject.CompareTag("PuzzleTypeOne") || other.gameObject.CompareTag("PuzzleTypeTwo"))
+    
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.CompareTag("Player"))
         {
-            Data.Replay();
+            Data.keyTotal--;
+            Destroy(gameObject);
         }
     }
 }
