@@ -20,6 +20,8 @@
 - [Pilah Sampah](./pilah-sampah/)
 - [Endless Runner](./endless-runner/)
 - [Platformer](./platformer/)
+- [Tower Defense](./tower-defense/)
+- [Platpodrag (Proyek UAS)](./platpodrag/)
 
 ## Build Project (WebGL):
 Screenshot | Link to Play
@@ -29,5 +31,5 @@ Screenshot | Link to Play
 ![Pilah Sampah](https://img.itch.zone/aW1hZ2UvMTcwMjUxMi8xMDAzMTkyMi5wbmc=/347x500/xJVUR6.png) | [Pilah Sampah](https://wewnumam.itch.io/pilah-sampah)
 ![Endless Runner](https://img.itch.zone/aW1hZ2UvMTcwNDM4Ny8xMDI2NjA4MS5wbmc=/347x500/rqDdmI.png) | [Endless Runner](https://wewnumam.itch.io/endless-runner)
 ![Platformer](https://img.itch.zone/aW1hZ2UvMTcxNTk2MC8xMDEwODExOS5wbmc=/347x500/tpVthf.png) | [Platformer: Part Two](https://wewnumam.itch.io/2d-platformer)
-![Tower Defense](https://img.itch.zone/aW1hZ2UvMTc2MTMwMi8xMDM1OTQ5Mi5wbmc=/250x600/1JY5dh.png) | [Tower Defense](https://wewnumam.itch.io/tower-defense)
-Coming Soon (Proyek UAS) | Platpodrag
+![Tower Defense](https://img.itch.zone/aW1hZ2UvMTc2MTMwMi8xMDM1OTQ5Mi5wbmc=/347x500/5GH1yI.png) | [Tower Defense](https://wewnumam.itch.io/tower-defense)
+***Coming Soon (Proyek UAS)*** | ***Platpodrag***
