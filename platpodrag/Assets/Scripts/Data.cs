@@ -8,9 +8,11 @@ public class Data : MonoBehaviour
     public static int keyTotal;
     public static int puzzleUnsolved;
     private static string replayScene;
+    private static string nextScene;
     public GameObject keyParent;
     public GameObject puzzleDropParent;
     public string replaySceneName;
+    public string nextSceneName;
 
 
     // Start is called before the first frame update
@@ -19,12 +21,16 @@ public class Data : MonoBehaviour
         keyTotal = keyParent.transform.childCount;
         puzzleUnsolved = puzzleDropParent.transform.childCount;
         replayScene = replaySceneName;
+        nextScene = nextSceneName;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (puzzleUnsolved == 0)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
     }
 
     public static void Replay()

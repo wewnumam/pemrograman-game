@@ -8,11 +8,12 @@ public class PuzzleSpawner : MonoBehaviour
     float timer;
     public float pause = 2f;
     public GameObject[] puzzles;
+    SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -32,11 +33,15 @@ public class PuzzleSpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player") && Data.keyTotal == 0)
+        {
             isSpawn = true;
+            spriteRenderer.color = Color.yellow;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player"))
             isSpawn = false;
+        spriteRenderer.color = new Color(1f, 1f, 0f, 0.5f);
     }
 }
