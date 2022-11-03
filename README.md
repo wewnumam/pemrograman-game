@@ -21,6 +21,7 @@
 - [Endless Runner](./endless-runner/)
 - [Platformer](./platformer/)
 - [Tower Defense](./tower-defense/)
+- [Tower Defense](./kart/)
 - [Platpodrag (Proyek UAS)](./platpodrag/)
 
 ## Build Project (WebGL):
@@ -32,4 +33,5 @@ Screenshot | Link to Play
 ![Endless Runner](https://img.itch.zone/aW1hZ2UvMTcwNDM4Ny8xMDI2NjA4MS5wbmc=/347x500/rqDdmI.png) | [Endless Runner](https://wewnumam.itch.io/endless-runner)
 ![Platformer](https://img.itch.zone/aW1hZ2UvMTcxNTk2MC8xMDEwODExOS5wbmc=/347x500/tpVthf.png) | [Platformer: Part Two](https://wewnumam.itch.io/2d-platformer)
 ![Tower Defense](https://img.itch.zone/aW1hZ2UvMTc2MTMwMi8xMDM1OTQ5Mi5wbmc=/347x500/5GH1yI.png) | [Tower Defense](https://wewnumam.itch.io/tower-defense)
+![Kart](https://img.itch.zone/aW1hZ2UvMTc3NTY0MS8xMDQzODU2Ni5wbmc=/347x500/Nu96zu.png) | [Kart](https://wewnumam.itch.io/kart)
 ![Platpodrag](https://img.itch.zone/aW1hZ2UvMTc2ODY2NC8xMDM5ODc5Ny5wbmc=/347x500/nTNHpi.png) | [Platpodrag (Proyek UAS)](https://wewnumam.itch.io/platpodrag)
