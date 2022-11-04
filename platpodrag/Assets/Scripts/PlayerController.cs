@@ -7,8 +7,6 @@ public class PlayerController : MonoBehaviour
     public float speed = 7;
     public float jumpForce = 200;
     Rigidbody2D rb;
-    float inputX;
-    float inputY;
     bool isGround;
 
     // Start is called before the first frame update
@@ -20,16 +18,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inputX = Input.GetAxis("Horizontal");
-        inputY = Input.GetAxis("Jump");
     }
 
     void FixedUpdate()
     {
-        Vector2 movement = new Vector2(inputX * speed, 0);
-        rb.AddForce(movement);
+        if (Input.GetAxis("Horizontal") > 0)
+            transform.Translate(1 * Time.deltaTime * speed, 0, 0);
+        
+        if (Input.GetAxis("Horizontal") < 0)
+            transform.Translate(-1 * Time.deltaTime * speed, 0, 0);
 
-        if (inputY > 0 && isGround)
+        if (Input.GetAxis("Jump") > 0 && isGround)
         {
             rb.AddForce(new Vector2(0, 1) * jumpForce);
             isGround = false;
@@ -44,7 +43,7 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("Ball"))
         {
-            Data.Replay();
+            Data.restart = true;
         }
     }
 }

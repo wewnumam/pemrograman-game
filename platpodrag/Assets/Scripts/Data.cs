@@ -13,7 +13,8 @@ public class Data : MonoBehaviour
     public GameObject puzzleDropParent;
     public string replaySceneName;
     public string nextSceneName;
-
+    public static bool restart;
+    private static float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -31,10 +32,18 @@ public class Data : MonoBehaviour
         {
             SceneManager.LoadScene(nextScene);
         }
-    }
 
-    public static void Replay()
-    {
-        SceneManager.LoadScene(replayScene);
+        if (restart)
+        {
+            Time.timeScale = 0.1f;
+            timer += Time.deltaTime;
+            if (timer > 0.2)
+            {
+                Time.timeScale = 1;
+                restart = false;
+                timer = 0;
+                SceneManager.LoadScene(replayScene);
+            }
+        }
     }
 }

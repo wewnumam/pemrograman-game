@@ -21,7 +21,7 @@ public class PuzzleDestroyer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("PuzzleTypeOne") || other.gameObject.CompareTag("PuzzleTypeTwo"))
         {
-            Data.Replay();
+            Data.restart = true;
         }
     }
 }
