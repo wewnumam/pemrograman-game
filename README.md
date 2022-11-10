@@ -33,5 +33,5 @@ Screenshot | Link to Play
 ![Endless Runner](https://img.itch.zone/aW1hZ2UvMTcwNDM4Ny8xMDI2NjA4MS5wbmc=/347x500/rqDdmI.png) | [Endless Runner](https://wewnumam.itch.io/endless-runner)
 ![Platformer](https://img.itch.zone/aW1hZ2UvMTcxNTk2MC8xMDEwODExOS5wbmc=/347x500/tpVthf.png) | [Platformer: Part Two](https://wewnumam.itch.io/2d-platformer)
 ![Tower Defense](https://img.itch.zone/aW1hZ2UvMTc2MTMwMi8xMDM1OTQ5Mi5wbmc=/347x500/5GH1yI.png) | [Tower Defense](https://wewnumam.itch.io/tower-defense)
-![Kart](https://img.itch.zone/aW1hZ2UvMTc3NTY0MS8xMDQzODU2Ni5wbmc=/347x500/Nu96zu.png) | [Kart](https://wewnumam.itch.io/kart)
+![Kart](https://img.itch.zone/aW1hZ2UvMTc3NTY0MS8xMDQ5NDY1MC5wbmc=/347x500/mhpU7U.png) | [Kart](https://wewnumam.itch.io/kart)
 ![Platpodrag](https://img.itch.zone/aW1hZ2UvMTc2ODY2NC8xMDQ1MzEwMC5wbmc=/347x500/G%2B8c%2By.png) | [Platpodrag (Proyek UAS)](https://wewnumam.itch.io/platpodrag)
