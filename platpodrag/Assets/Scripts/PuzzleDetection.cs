@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PuzzleDetection : MonoBehaviour
 {
+    public Sprite filledSprite;
     SpriteRenderer spriteRenderer;
     bool isFilled;
 
@@ -24,7 +25,8 @@ public class PuzzleDetection : MonoBehaviour
          {
             Data.puzzleUnsolved--;
             Destroy(other.gameObject);
-            spriteRenderer.color = Color.white;
+            spriteRenderer.sprite = filledSprite;
+            spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
             isFilled = true;
          }
     }

@@ -35,13 +35,14 @@ public class PuzzleSpawner : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && Data.keyTotal == 0)
         {
             isSpawn = true;
-            spriteRenderer.color = Color.yellow;
+            spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
         }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player")) {
             isSpawn = false;
-        spriteRenderer.color = new Color(1f, 1f, 0f, 0.5f);
+            spriteRenderer.color = new Color(1f, 1f, 1f, 0.5f);
+        }
     }
 }
