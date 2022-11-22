@@ -22,6 +22,8 @@
 - [Platformer](./platformer/)
 - [Tower Defense](./tower-defense/)
 - [Kart](./kart/)
+- [Shooter](https://github.com/ahmadtp21/Shooter)
+- [FPS](https://github.com/ahmadtp21/FPS)
 - [Platpodrag (Proyek UAS)](./platpodrag/)
 
 ## Build Project (WebGL):
